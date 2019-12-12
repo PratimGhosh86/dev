@@ -1,0 +1,78 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "alphabet.soup",
+      "type": "shell",
+      "options": {
+        "cwd": "${workspaceFolder}/alphabet.soup/src/main/java"
+      },
+      "command": "./run.bat",
+      "group": "none"
+    },
+    {
+      "label": "contact.list.and.search",
+      "type": "shell",
+      "options": {
+        "cwd": "${workspaceFolder}/contact.list.and.search/src/main/java"
+      },
+      "command": "./run.bat",
+      "group": "none"
+    },
+    {
+      "label": "display.state",
+      "type": "shell",
+      "options": {
+        "cwd": "${workspaceFolder}/display.state/src/main/java"
+      },
+      "command": "./run.bat",
+      "group": "none"
+    },
+    {
+      "label": "help.the.web.team",
+      "type": "shell",
+      "options": {
+        "cwd": "${workspaceFolder}/help.the.web.team/src/main/java"
+      },
+      "command": "./run.bat",
+      "group": "none"
+    },
+    {
+      "label": "letter.frequency",
+      "type": "shell",
+      "options": {
+        "cwd": "${workspaceFolder}/letter.frequency/src/main/java"
+      },
+      "command": "./run.bat",
+      "group": "none"
+    },
+    {
+      "label": "password.validation",
+      "type": "shell",
+      "options": {
+        "cwd": "${workspaceFolder}/password.validation/src/main/java"
+      },
+      "command": "./run.bat",
+      "group": "none"
+    },
+    {
+      "label": "producer.and.consumer.with.blocking.queue",
+      "type": "shell",
+      "options": {
+        "cwd":
+          "${workspaceFolder}/producer.and.consumer.with.blocking.queue/src/main/java"
+      },
+      "command": "./run.bat",
+      "group": "none"
+    },
+    {
+      "label": "simple.interface",
+      "type": "shell",
+      "options": {
+        "cwd": "${workspaceFolder}/letter.frequency/src/main/java"
+      },
+      "command": "./run.bat",
+      "group": "none"
+    }
+  ]
+}

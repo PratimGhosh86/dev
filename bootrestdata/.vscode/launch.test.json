@@ -1,0 +1,24 @@
+{
+  "run": {
+    "default": "",
+    "items": [{
+      "name": "boot",
+      "projectName": "boot",
+      "workingDirectory": "c:\\Workspace\\quick-poc\\bootrestdata",
+      "args": [],
+      "vmargs": [],
+      "preLaunchTask": ""
+    }]
+  },
+  "debug": {
+    "default": "",
+    "items": [{
+      "name": "boot",
+      "projectName": "boot",
+      "workingDirectory": "c:\\Workspace\\quick-poc\\bootrestdata",
+      "args": [],
+      "vmargs": [],
+      "preLaunchTask": ""
+    }]
+  }
+}

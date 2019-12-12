@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "bootkeep",
+                "projectName": "bootkeep",
+                "workingDirectory": "c:\\Workspace\\quick-poc\\bootkeep",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "bootkeep",
+                "projectName": "bootkeep",
+                "workingDirectory": "c:\\Workspace\\quick-poc\\bootkeep",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}

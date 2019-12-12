@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [{
+      "label": "package",
+      "type": "shell",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "command": "./mvnw package",
+      "group": "build"
+    },
+    {
+      "label": "verify",
+      "type": "shell",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "command": "./mvnw -B verify -DskipTests",
+      "group": "build"
+    },
+    {
+      "label": "test",
+      "type": "shell",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "command": "./mvnw -B test",
+      "group": "test"
+    }
+  ]
+}

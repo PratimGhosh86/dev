@@ -1,0 +1,9 @@
+{
+  "eslint.enable": false,
+  "css_peek.enable": false,
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.format.settings.url": "https://raw.githubusercontent.com/PratimGhosh86/quick-poc/master/.shared/eclipse/formatters/eclipse-google-custom.xml",
+  "java.saveActions.organizeImports": true,
+  "java.dependency.packagePresentation": "flat",
+  "maven.view": "flat",
+}

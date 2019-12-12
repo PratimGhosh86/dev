@@ -1,0 +1,15 @@
+[{
+    "merchantId": 100006,
+    "email": "merchant6@email.com",
+    "merchantName": "Merchant 6",
+    "score": "Low",
+    "avgScore": 5
+  },
+  {
+    "merchantId": 100007,
+    "email": "merchant7@email.com",
+    "merchantName": "Merchant 7",
+    "score": "Highest",
+    "avgScore": 21
+  }
+]

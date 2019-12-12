@@ -1,0 +1,9 @@
+{
+  "eslint.enable": false,
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.format.settings.url": "https://raw.githubusercontent.com/PratimGhosh86/quick-poc/master/.shared/eclipse/formatters/eclipse-google-custom.xml",
+  "java.checkstyle.configuration": "/google_checks.xml",
+  "java.dependency.syncWithFolderExplorer": true,
+  "java.dependency.packagePresentation": "hierarchical",
+  "maven.view": "hierarchical"
+}

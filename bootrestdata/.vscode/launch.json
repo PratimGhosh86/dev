@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [{
+      "type": "java",
+      "name": "boot - Initializer - Debug (Launch)",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "preLaunchTask": "verify",
+      "mainClass": "com.dev.boot.Initializer",
+      "projectName": "boot",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "boot - Debug (Attach)",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 0
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [{
+      "type": "java",
+      "name": "bootkeep - Initializer - Debug (Launch)",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "stopOnEntry": false,
+      // "preLaunchTask": "verify",
+      "mainClass": "com.demo.keep.Initializer",
+      "projectName": "bootkeep",
+      "args": "--file.path=C:\\temp --operation=DECRYPT"
+    },
+    {
+      "type": "java",
+      "name": "bootkeep - Debug (Attach)",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 0
+    }
+  ]
+}

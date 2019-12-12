@@ -1,0 +1,11 @@
+insert into employee (FIRSTNAME, LASTNAME, SALARY) values('Jack','Bauer',10000);
+insert into employee (FIRSTNAME, LASTNAME, SALARY) values('Chloe','O''Brian',11000);
+insert into employee (FIRSTNAME, LASTNAME, SALARY) values('Kim','Bauer',12000);
+insert into employee (FIRSTNAME, LASTNAME, SALARY) values('David','Palmer',13000);
+insert into employee (FIRSTNAME, LASTNAME, SALARY) values('Michelle','Dessler',14000);
+insert into employee (FIRSTNAME, LASTNAME, SALARY) values('Muge','Robson',15000);
+insert into employee (FIRSTNAME, LASTNAME, SALARY) values('Agnes','Aarle',16000);
+insert into employee (FIRSTNAME, LASTNAME, SALARY) values('Amanda','Greenberg',17000);
+insert into employee (FIRSTNAME, LASTNAME, SALARY) values('Gretchen','Rizzo',18000);
+insert into employee (FIRSTNAME, LASTNAME, SALARY) values('Arik','Ruggles',19000);
+insert into employee (FIRSTNAME, LASTNAME, SALARY) values('Jasmin','Beckett',20000);

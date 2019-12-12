@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "fileprocessor",
+                "projectName": "fileprocessor",
+                "workingDirectory": "c:\\Workspace\\quick-poc\\fileprocessor",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "fileprocessor",
+                "projectName": "fileprocessor",
+                "workingDirectory": "c:\\Workspace\\quick-poc\\fileprocessor",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}

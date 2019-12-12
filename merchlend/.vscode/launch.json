@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [{
+      "type": "java",
+      "name": "merchlend - Initializer - Debug (Launch)",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "stopOnEntry": false,
+      // "preLaunchTask": "verify",
+      "mainClass": "com.proto.merchlend.Initializer",
+      "projectName": "merchlend",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "merchlend - Debug (Attach)",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 8005
+    }
+  ]
+}

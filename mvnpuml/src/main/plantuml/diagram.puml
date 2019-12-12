@@ -1,0 +1,6 @@
+@startuml diagram
+
+(*) -->[test] "First Activity"
+"First Activity" --> (*)
+
+@enduml

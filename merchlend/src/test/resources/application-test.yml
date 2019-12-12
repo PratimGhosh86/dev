@@ -1,0 +1,85 @@
+debug: false
+
+logging:
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%t] %level %logger{36} - %msg%n"
+  level:
+    root: INFO
+    com.zaxxer.hikari.HikariConfig: DEBUG
+    com.zaxxer.hikari.pool.HikariPool: DEBUG
+    org.hibernate.cfg.Configuration: TRACE
+    org.hibernate.cfg.Environment: TRACE
+    org.hibernate.cfg.Settings: TRACE
+    org.hibernate.type.descriptor.sql: TRACE
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.springframework.transaction.interceptor: TRACE
+    org.springframework.cache: TRACE
+    org.hibernate.SQL: DEBUG
+    com.proto.merchlend: DEBUG
+
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-store: classpath:keystore.p12
+    key-store-password: localhost
+    key-store-type: PKCS12
+    key-alias: localhost
+    protocol: TLSv1.2
+
+management:
+  port: 8443
+  security:
+    enabled: false
+
+spring:
+  cache:
+    cache-names: cache_merchlend
+  datasource:
+    platform: h2
+    url: jdbc:h2:mem:testdb;MODE=PostgreSQL;IGNORECASE=TRUE;DB_CLOSE_DELAY=-1
+    hikari:
+      minimumIdle: 1
+      maximumPoolSize: 10
+      idleTimeout: 60000
+  h2:
+    console:
+      enabled: false
+  http:
+    multipart:
+      file-size-threshold:  10MB
+      max-file-size: 10MB
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        generate_statistics: false
+        batch_size: 10
+        batch_versioned_data: true
+        order_inserts: true
+        order_updates: true
+        show_sql: false
+        type: trace
+        use_sql_comments: false
+        jdbc.batch_size: 50
+        jdbc.batch_versioned_data: true
+  output:
+    ansi:
+      enabled: detect
+  profiles:
+    active: test,embedded
+
+files:
+  path:
+    use-desktop: true
+    alternate: "C:"
+    scan: "\\merchlend\\offers"
+    upload: "\\merchlend\\uploads"
+
+scanner:
+  trigger:
+    seconds: 10
+
+offer:
+  expiry:
+    days: 30

@@ -1,0 +1,24 @@
+{
+  "run": {
+    "default": "",
+    "items": [{
+      "name": "merchlend",
+      "projectName": "merchlend",
+      "workingDirectory": "${workspaceFolder}",
+      "args": [],
+      "vmargs": [],
+      "preLaunchTask": ""
+    }]
+  },
+  "debug": {
+    "default": "",
+    "items": [{
+      "name": "merchlend",
+      "projectName": "merchlend",
+      "workingDirectory": "${workspaceFolder}",
+      "args": [],
+      "vmargs": [],
+      "preLaunchTask": ""
+    }]
+  }
+}

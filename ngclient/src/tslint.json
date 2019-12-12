@@ -1,0 +1,25 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "app",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "app",
+      "kebab-case"
+    ],
+    "newline-per-chained-call": false,
+    "no-console": false,
+    "trailing-comma": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "src/*.spec.js"
+    ]
+  }
+}

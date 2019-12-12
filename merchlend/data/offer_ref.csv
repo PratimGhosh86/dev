@@ -1,0 +1,18 @@
+Merchant_loan_offer_id,Merchant_id,Lender_Id,Interest%,Email,Merchant Name,Offer_date,Loan Amount requested by merchant,Merchant response date,Merchant_accptance_status,Merchant rejection reason,Lender_acceptance_status,Lender rejection reason,Lender Approved amount
+1,100001,101,12,merchant1@email.com,Merchant1 Kumar,02-Nov-18,,,,,,,
+2,100001,102,12,merchant1@email.com,Merchant1 Kumar,02-Nov-18,,,,,,,
+3,100001,103,12.5,merchant1@email.com,Merchant1 Kumar,02-Nov-18,,,,,,,
+4,100002,101,16,merchant2@email.com,Merchant2 Kumari,30-Oct-18,10000,01-Nov-18,Interested,,Verified,,7000
+5,100002,102,17,merchant2@email.com,Merchant2 Kumari,02-Nov-18,,,,,,,
+6,100002,103,16.5,merchant2@email.com,Merchant2 Kumari,01-Nov-18,,,,,,,
+7,100002,104,16.8,merchant2@email.com,Merchant2 Kumari,04-Nov-18,,,,,,,
+8,100003,103,8.7,merchant3@email.com,Merchant3 ,30-Oct-18,20000,01-Nov-18,Interested,,Rejected,Business is too risky,
+9,100003,104,8.7,merchant3@email.com,Merchant3 ,01-Nov-18,20000,01-Nov-18,Interested,,Document Submission,,12000
+10,100004,101,9,merchant4@email.com,Merchant4,30-Oct-18,5000,,Interested,,Approved,,5000
+11,100004,102,9,merchant4@email.com,Merchant4,01-Nov-18,,,,,,,
+12,100004,103,9.2,merchant4@email.com,Merchant4,27-Oct-18,,,Rejected,Interest rate is too high,,,
+13,100004,104,9,merchant4@email.com,Merchant4,28-Oct-18,,,,,,,
+14,100005,101,12,merchant5@email.com,Merchant5,30-Oct-18,,,Not Interested,Not interested in this bank,,,
+15,100005,102,12,merchant5@email.com,Merchant5,01-Nov-18,900,,Interested,,,,
+16,100005,103,12.5,merchant5@email.com,Merchant5,27-Oct-18,,,Not Interested,Interest rate is too high,,,
+17,100005,104,12.6,merchant5@email.com,Merchant5,28-Oct-18,,,Not Interested,Interest rate is too high,,,

@@ -1,0 +1,17 @@
+debug: false
+
+logging:
+  pattern:
+    console: "%clr(%d{HH:mm:ss.SSS}){faint} %clr([%t]){blue} %clr(%level) %clr(%logger{36}){cyan} - %msg%n"
+  level:
+    root: INFO
+    com.demo.fileprocessor: DEBUG
+
+spring:
+  main:
+    web-application-type: NONE
+  output:
+    ansi:
+      enabled: always
+  profiles:
+    active: dev,embedded

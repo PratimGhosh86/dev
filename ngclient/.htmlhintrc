@@ -1,0 +1,8 @@
+{
+  "attr-lowercase": true,
+  "attr-no-duplication": true,
+  "doctype-first": false,
+  "doctype-html5": true,
+  "inline-style-disabled": true,
+  "inline-script-disabled": true
+}
