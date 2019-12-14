@@ -1,9 +1,13 @@
 {
   "eslint.enable": false,
   "css_peek.enable": false,
+  "java.checkstyle.autocheck": true,
+  "java.checkstyle.configuration": "/google_checks.xml"
+  "java.checkstyle.version": "8.27",
+  "java.codeGeneration.generateComments": true,
+  "java.codeGeneration.toString.codeStyle": "STRING_BUILDER_CHAINED",
   "java.configuration.updateBuildConfiguration": "automatic",
   "java.format.settings.url": "https://raw.githubusercontent.com/PratimGhosh86/quick-poc/master/.shared/eclipse/formatters/eclipse-google-custom.xml",
-  "java.saveActions.organizeImports": true,
-  "java.dependency.packagePresentation": "flat",
-  "maven.view": "flat",
+  "java.home": "C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.5.10-openj9",
+  "java.saveActions.organizeImports": true
 }
