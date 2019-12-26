@@ -13,9 +13,8 @@ function Write-Theme
 	$computer = [System.Environment]::MachineName
 	$computerip = $(ipconfig | where {$_ -match 'IPv4.+\s(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})' } | out-null; $Matches[1])
 
-	$prompt = Write-Prompt -Object "$user " -ForegroundColor $s1.Colors.PromptForegroundColor
-	$prompt += Write-Prompt -Object "$computer @ $computerip " -ForegroundColor $s1.Colors.PromptHighlightColor
-	$prompt += Write-Prompt -Object ":: " -ForegroundColor $s1.Colors.AdminIconForegroundColor
+	$prompt += Write-Prompt -Object "$user@$computer " -ForegroundColor $s1.Colors.PromptForegroundColor
+	$prompt += Write-Prompt -Object "$computerip " -ForegroundColor $s1.Colors.PromptHighlightColor
 	$prompt += Write-Prompt -Object "$(Get-FullPath -dir $pwd) " -ForegroundColor $s1.Colors.DriveForegroundColor
 
 	$status = Get-VCSStatus
@@ -30,7 +29,12 @@ function Write-Theme
 
 	$prompt += Set-Newline
 
-	$prompt += Write-Prompt -Object $s1.PromptSymbols.PromptIndicator -ForegroundColor $s1.Colors.DefaultForegroundColor
+	#check for elevated prompt
+	If (Test-Administrator) {
+		$prompt += Write-Prompt -Object $s1.PromptSymbols.PromptIndicator -ForegroundColor $s1.Colors.AdminIconForegroundColor
+	} 
+	$prompt += Write-Prompt -Object $s1.PromptSymbols.PromptIndicator -ForegroundColor $s1.Colors.AdminIconForegroundColor
+
 	$prompt += ' '
 	$prompt
 }
@@ -39,7 +43,7 @@ $s1 = $global:ThemeSettings
 $s1.GitSymbols.BranchIdenticalStatusToSymbol = ""
 $s1.GitSymbols.BranchSymbol = ""
 $s1.GitSymbols.BranchUntrackedSymbol = "*"
-$s1.PromptSymbols.PromptIndicator = [char]::ConvertFromUtf32(0x00BB)
+$s1.PromptSymbols.PromptIndicator = [char]::ConvertFromUtf32(0x276D)
 
 # Colors
 $s1.Colors.DefaultForegroundColor = [ConsoleColor]::White
