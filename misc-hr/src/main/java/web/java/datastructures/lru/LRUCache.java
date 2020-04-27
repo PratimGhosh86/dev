@@ -10,21 +10,18 @@ import java.util.function.Consumer;
 
 public class LRUCache {
 
-  private Integer capacity;
+  private Integer capacity, cacheHits, cacheMiss;
 
   private BlockingDeque<String> keys;
   private ConcurrentMap<String, Object> data;
-
-  private Integer cacheHits;
-  private Integer cacheMiss;
 
   protected LRUCache() {}
 
   protected LRUCache(final Integer cap) {
     capacity = cap;
+    cacheHits = cacheMiss = 0;
     keys = new LinkedBlockingDeque<>(cap);
     data = new ConcurrentHashMap<>(cap);
-    cacheHits = cacheMiss = 0;
   }
 
   public synchronized Boolean store(final String key, final Object value) {
