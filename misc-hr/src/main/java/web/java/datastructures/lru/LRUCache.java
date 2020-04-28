@@ -6,20 +6,28 @@ import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.LinkedBlockingDeque;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
 
 public class LRUCache {
 
-  private Integer capacity, cacheHits, cacheMiss;
+  private Integer capacity;
+
+  private AtomicInteger cacheHits, cacheMiss;
 
   private BlockingDeque<String> keys;
   private ConcurrentMap<String, Object> data;
+
+  final Consumer<String> removeAndPush =
+      ((Consumer<String>) cacheKey -> keys.removeFirstOccurrence(cacheKey))
+          .andThen(cacheKey -> keys.push(cacheKey));
 
   protected LRUCache() {}
 
   protected LRUCache(final Integer cap) {
     capacity = cap;
-    cacheHits = cacheMiss = 0;
+    cacheHits = new AtomicInteger(0);
+    cacheMiss = new AtomicInteger(0);
     keys = new LinkedBlockingDeque<>(cap);
     data = new ConcurrentHashMap<>(cap);
   }
@@ -35,10 +43,10 @@ public class LRUCache {
         data.remove(removedItem);
         System.out.println(String.format("Entry removed successfully: [key: %s]", removedItem));
       }
+      // else nothing to do yet
     }
     // cache entry exists, need to replace
     else {
-      cacheHits += 1;
       keys.removeFirstOccurrence(key);
       data.remove(key);
       System.out.println(String.format("Entry removed successfully: [key: %s]", key));
@@ -56,13 +64,11 @@ public class LRUCache {
     Optional<Object> result = Optional.empty();
     if (data.containsKey(key)) {
       // match found, need to push element to front of queue
-      final Consumer<String> remove = cacheKey -> keys.removeFirstOccurrence(cacheKey);
-      remove.andThen(cacheKey -> keys.push(cacheKey)).accept(key);
+      removeAndPush.andThen(cacheKey -> cacheHits.incrementAndGet()).accept(key);
       result = Optional.of(data.get(key));
-      cacheHits += 1;
       System.out.println(String.format("Entry promoted successfully: [key: %s]", key));
     } else {
-      cacheMiss += 1;
+      cacheMiss.incrementAndGet();
       System.out.println(String.format("No matching entry for: [key: %s]", key));
     }
     return result;
@@ -91,11 +97,11 @@ public class LRUCache {
   }
 
   public Integer cacheHits() {
-    return cacheHits;
+    return cacheHits.get();
   }
 
   public Integer cacheMiss() {
-    return cacheMiss;
+    return cacheMiss.get();
   }
 
   @Override
