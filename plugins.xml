@@ -1,4 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bookmarks>
    <site url="http://www.certiv.net/updates" selected="true" name="&quot;Certiv Tools&quot;"/>
+   <site url="https://dl.bintray.com/jetbrains/kotlin/eclipse-plugin/last/" selected="true" name="&quot;Kotlin Development Tools&quot;"/>
+   <site url="https://eclipse-uc.sonarlint.org" selected="true" name="&quot;SonarLint for Eclipse Update Site&quot;"/>
+   <site url="https://dl.bintray.com/de-jcup/asciidoctoreditor" selected="true" name="Asciidoctor Editor Update Site"/>
+   <site url="https://cypher256.github.io/eclipse-encoding-plugin/" selected="true" name="Autodetect Encoding Update Site"/>
+   <site url="http://download.eclipse.org/buildship/updates/e410/releases/3.x" selected="true" name="Buildship"/>
+   <site url="http://download.eclipse.org/cft/1.2.0/" selected="true" name="Cloud Foundry Tools"/>
+   <site url="https://ecd-plugin.github.io/update/" selected="true" name="com.github.ecd-plugin.update"/>
+   <site url="http://vaadin.com/eclipse/" selected="true" name="com.vaadin.update.site"/>
+   <site url="https://cucumber.github.io/cucumber-eclipse-update-site-snapshot/" selected="true" name="cucumber.eclipse.p2updatesite"/>
+   <site url="http://www.genuitec.com/updates/devstyle/ci/" selected="true" name="DevStyle CI Update Site"/>
+   <site url="http://anb0s.github.io/EasyShell" selected="true" name="EasyShell Release Versions"/>
+   <site url="https://checkstyle.org/eclipse-cs/update" selected="true" name="Eclipse Checkstyle Plugin"/>
+   <site url="https://download.eclipse.org/tools/orbit/downloads/drops/I20200319180910/repository" selected="true" name="Eclipse Orbit Composite Site I20200319180910"/>
+   <site url="https://download.eclipse.org/tools/orbit/downloads/drops/R20200224183213/repository" selected="true" name="Eclipse Orbit Composite Site R20200224183213"/>
+   <site url="http://download.eclipse.org/eclipse/updates/4.4/R-4.4.2-201502041700" selected="true" name="Eclipse Project Repository for Luna"/>
+   <site url="https://editorconfig-eclipse.github.io/repository" selected="true" name="editorconfig-eclipse-p2"/>
+   <site url="http://download.eclipse.org/egit/updates-nightly/" selected="true" name="EGit P2 Repository"/>
+   <site url="https://download.eclipse.org/egit/updates" selected="true" name="EGit P2 Repository"/>
+   <site url="http://download.erlide.org/update" selected="true" name="Erlide repo"/>
+   <site url="https://download.eclipse.org/codewind/milestone/0.11.0/repository-openapi" selected="true" name="file:/home/jenkins/agent/workspace/_codewind-openapi-eclipse_0.11.0/dev/tools.image/update/staging/update-site/repository/ - metadata"/>
+   <site url="https://download.eclipse.org/codewind/milestone/0.11.0/repository/" selected="true" name="file:/home/jenkins/agent/workspace/Codewind_codewind-eclipse_0.11.0/dev/tools.image/update/staging/update-site/repository/ - metadata"/>
+   <site url="https://download.eclipse.org/codewind/milestone/0.9.0/repository/" selected="true" name="file:/home/jenkins/agent/workspace/Codewind_codewind-eclipse_0.9.0/dev/tools.image/update/staging/update-site/repository/ - metadata"/>
+   <site url="https://download.eclipse.org/codewind/milestone/0.9.0/repository-openapi" selected="true" name="file:/home/jenkins/agent/workspace/d_codewind-openapi-eclipse_0.9.0/dev/tools.image/update/staging/update-site/repository/ - metadata"/>
+   <site url="http://rherrmann.github.io/gonsole/repository/" selected="true" name="Gonsole Software Repository"/>
+   <site url="https://p2.avojak.com/content/hydrogen/releases/1.0.1" selected="true" name="hydrogen :: update site"/>
+   <site url="http://helospark.com/eclipse_plugin/import-jar-as-project/" selected="true" name="Import jar as project plugin"/>
+   <site url="http://www.apache.org/dist/ant/ivyde/updatesite" selected="true" name="IvyDE"/>
+   <site url="https://download.jboss.org/jbosstools/photon/stable/composite/4.14.0" selected="true" name="JBoss Tools - Core + Central Update Site - TOOLS-ssh/photon/stable/composite/4.14.0/"/>
+   <site url="https://download.jboss.org/jbosstools/photon/stable/composite/4.15.0" selected="true" name="JBoss Tools - Core + Central Update Site - TOOLS-ssh/photon/stable/composite/4.15.0/"/>
+   <site url="http://download.jboss.org/jbosstools/targetplatforms/jbosstoolstarget/4.15.0.Final-SNAPSHOT/REPO/" selected="true" name="jbosstools-multiple.target"/>
+   <site url="https://dl.bintray.com/jhipster/jhipster-ide/io.github.jhipster-ide-2.1.1" selected="true" name="JHipsterr IDE"/>
+   <site url="https://download.eclipse.org/releases/latest" selected="true" name="Latest Eclipse Release"/>
+   <site url="http://download.eclipse.org/linuxtools/update-docker" selected="false" name="Linux Tools Docker Tooling"/>
+   <site url="http://download.eclipse.org/m2e-wtp/releases/mars/1.2/" selected="true" name="m2e-wtp Mars Release repository"/>
+   <site url="https://dl.bintray.com/mapstruct/mapstruct-eclipse-site/" selected="true" name="MapStruct Eclipse repository"/>
+   <site url="https://www.mihai-nita.net/eclipse" selected="false" name="Mihai&apos;s Eclipse plugins"/>
+   <site url="https://download.eclipse.org/mylyn/releases/latest" selected="true" name="Mylyn 3.25 for Eclipse 4.11 and 4.12"/>
+   <site url="https://nodeclipse.github.io/updates/polyglot-maven-ide-pack/" selected="true" name="Nodeclipse Updates - Polyglot Maven IDE Pack"/>
+   <site url="https://dist.springsource.org/snapshot/GRECLIPSE/e4.15" selected="false" name="org.codehaus.groovy.eclipse.site"/>
+   <site url="http://download.eclipse.org/e4/snapshots/org.eclipse.e4.ui" selected="true" name="org.eclipse.e4.ui update site"/>
+   <site url="https://download.eclipse.org/e4/snapshots/org.eclipse.e4.ui" selected="true" name="org.eclipse.e4.ui update site"/>
+   <site url="http://download.eclipse.org/wildwebdeveloper/releases/latest/" selected="true" name="repository"/>
+   <site url="https://download.springsource.com/release/TOOLS/sts4/update/latest" selected="true" name="Spring Tool Suite 4"/>
+   <site url="https://download.springsource.com/release/TOOLS/sts4-language-servers/e4.8" selected="true" name="Spring Tooling Language Servers for Eclipse"/>
+   <site url="https://download.springsource.com/release/TOOLS/sts4-language-server-integrations" selected="true" name="Spring Tools 4 Language Servers for Eclipse"/>
+   <site url="http://download.eclipse.org/tm/terminal/marketplace" selected="true" name="TM Terminal Marketplace Update Site"/>
+   <site url="https://dl.bintray.com/de-jcup/basheditor" selected="true" name="Update Site"/>
+   <site url="https://dl.bintray.com/de-jcup/batcheditor" selected="true" name="Update Site"/>
+   <site url="https://dl.bintray.com/de-jcup/ekube" selected="true" name="Update Site"/>
+   <site url="https://dl.bintray.com/de-jcup/jenkinseditor" selected="true" name="Update Site"/>
+   <site url="https://dl.bintray.com/de-jcup/sqleditor" selected="true" name="Update Site"/>
+   <site url="http://www.eclipse.org/jdt/ui/update-site/content" selected="true" name="update site: http://www.eclipse.org/jdt/ui/update-site/content"/>
+   <site url="http://download.eclipse.org/usssdk/updates/release/latest" selected="true" name="User Storage Latest Release"/>
+   <site url="http://ant.apache.org/ivy/ivyde/updatesite" selected="false" name=""/>
+   <site url="http://dev.eclipse.org/viewcvs/index.cgi/~checkout~/jdt-ui-home/plugins/org.eclipse.jdt.astview/AST-View-Site/" selected="false" name=""/>
+   <site url="http://download.eclipse.org/mylyn/releases/3.25" selected="false" name=""/>
+   <site url="http://download.eclipse.org/tm/terminal/updates/4.0" selected="false" name=""/>
+   <site url="http://download.eclipse.org/tm/updates/3.7" selected="false" name=""/>
+   <site url="http://download.eclipse.org/tm/updates/4.0" selected="false" name=""/>
+   <site url="http://pluginbox.sourceforge.net" selected="false" name=""/>
+   <site url="http://www.eclipse.org/jdt/ui/update-site" selected="false" name=""/>
+   <site url="https://en.wikipedia.org/wiki/ANSI_escape_code" selected="false" name=""/>
+   <site url="https://github.com/mihnita/ansi-econsole" selected="false" name=""/>
+   <site url="https://hudson.eclipse.org/handly/job/0.3.x/lastSuccessfulBuild/artifact/build/repository/" selected="false" name=""/>
 </bookmarks>
