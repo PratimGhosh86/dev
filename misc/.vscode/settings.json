@@ -8,6 +8,5 @@
   "java.codeGeneration.toString.codeStyle": "STRING_BUILDER_CHAINED",
   "java.configuration.updateBuildConfiguration": "automatic",
   "java.format.settings.url": "https://raw.githubusercontent.com/PratimGhosh86/quick-poc/master/.shared/eclipse/formatters/eclipse-google-custom.xml",
-  "java.home": "C:\\Program Files\\AdoptOpenJDK\\jdk-8.0.242.08-openj9",
   "java.saveActions.organizeImports": true
 }
